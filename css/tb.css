@@ -1,0 +1,87 @@
+.pc,
+.gnb,
+.close_btn {
+  display: none;
+}
+
+.tb {
+  display: block;
+}
+
+header {
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
+  margin-right: 0px;
+}
+
+.logo svg {
+  width: 83px;
+}
+
+.util {
+  order: -1;
+  margin-left: 0;
+}
+
+.util button {
+  margin-left: 0px;
+
+}
+
+/*main*/
+.container p {
+  width: 50%;
+  flex: 1 0 auto;
+  /* width: calc(100% /4) */
+  /*선 왼쪽, 아래쪽 1px #000*/
+  /* border-left: 1px solid #000;
+  border-bottom: 1px solid #000; */
+  border: solid #000;
+  border-width: 0 0 1px 1px;
+}
+
+.txt {
+  padding: 2.4rem 2.6rem;
+  font-size: 2.8rem;
+}
+
+.container .w50 {
+  width: 100%;
+}
+
+.container .videoWrap {
+  order: -1;
+  height: calc(100vh - 57px);
+
+}
+
+.container iframe {
+  top: -55px;
+  transform: scale(1.4);
+}
+
+/*footer*/
+footer {
+  padding: 21px 0 24px;
+  line-height: 1.4rem;
+  font-size: .9rem;
+
+}
+
+footer ul {
+  gap: 15px;
+  margin-bottom: 14px;
+}
+
+footer svg {
+  display: block;
+  width: 15px;
+  height: 15px;
+}
+
+footer li span {
+  display: none;
+}
